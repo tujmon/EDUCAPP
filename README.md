@@ -1,1 +1,1 @@
-# EDUCAPP
+# educapp
