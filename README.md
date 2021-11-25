@@ -1,1 +1,1 @@
-# scholarship-manager
+# EDUCAPP
