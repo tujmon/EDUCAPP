@@ -20,7 +20,7 @@ ___
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;|&nbsp;
   <a href="#link-como-contribuir">Como Contribuir</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>&nbsp;|&nbsp;
-  <a href="#colaboradores-colaboradores">Colaboradores</a>
+  <a href="#colaboradores">Colaboradores</a>
 </h3>
 
 ___
