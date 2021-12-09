@@ -65,7 +65,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - 'Push' a sua branch
 - Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
 
-## :colaboradores: Colaboradores
+## Colaboradores
 
 <table>
   <tr>
