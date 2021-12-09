@@ -19,7 +19,8 @@ ___
   <a href="#seedling-requisitos-mínimos">Requisitos</a>&nbsp;|&nbsp;
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;|&nbsp;
   <a href="#link-como-contribuir">Como Contribuir</a>&nbsp;|&nbsp;
-  <a href="#licença">Licença</a>
+  <a href="#licença">Licença</a>&nbsp;|&nbsp;
+  <a href="#colaboradores">Colaboradores</a>
 </h3>
 
 ___
@@ -63,6 +64,54 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Faça um commit com suas mudanças
 - 'Push' a sua branch
 - Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
+
+## :colaboradores: Colaboradores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/alexandreIFB">
+        <img src="https://avatars.githubusercontent.com/u/51518273?v=4?s=100" width="100px;" alt=""/>
+        <br />
+        <sub>
+          <b>Alexandre Abreu</b>
+        </sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/tujmon">
+        <img src="https://avatars.githubusercontent.com/u/61995846?v=4?s=100" width="100px;" alt=""/>
+        <br />
+        <sub>
+          <b>Arthur Monici</b>
+        </sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/luis-feliperc12">
+        <img src="https://avatars.githubusercontent.com/u/93354956?s=400&v=4" width="100px;" alt=""/>
+        <br />
+        <sub>
+          <b>Luis Felipe</b>
+        </sub>
+      </a>
+      <br />
+    </td>
+    <td align="center">
+      <a href="https://github.com/DaviMatiass">
+        <img src="https://avatars.githubusercontent.com/u/71733107?v=4?s=100" width="100px;" alt=""/>
+        <br />
+        <sub>
+          <b>Davi Matias</b>
+        </sub>
+      </a>
+      <br />
+    </td>
+  </tr>
+</table>
+
 
 ## Licença 
 
