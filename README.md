@@ -56,15 +56,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - GraphQL
 - Docker
 
-## :link: Como contribuir 
-
-- Faça um Fork do repositório
-- Clone o seu repositório
-- Crie uma branch com a sua feature
-- Faça um commit com suas mudanças
-- 'Push' a sua branch
-- Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
-
 ## Marcos do projeto
 ##  Acompanhamento do projeto
 
@@ -121,6 +112,15 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     </td>
   </tr>
 </table>
+
+## :link: Como contribuir 
+
+- Faça um Fork do repositório
+- Clone o seu repositório
+- Crie uma branch com a sua feature
+- Faça um commit com suas mudanças
+- 'Push' a sua branch
+- Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
 
 
 ## Licença 
