@@ -38,7 +38,6 @@ Uma plataforma de conexão entre pessoas que querem dar aulas e pessoas que quer
 
 NodeJs, Yarn
 
-
 ## :rocket: Tecnologias Utilizadas 
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
@@ -56,12 +55,24 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - GraphQL
 - Docker
 
-## Marcos do projeto
-##  Acompanhamento do projeto
+## Objetivos Específicos
+- Desenvolvimento de uma plataforma de aulas online, voltada a estudantes e profissionais.
 
+## Acompanhamento do Projeto
+- Todos os dias tem um encontro para desenvolver, como um método de pair programming e semanalmente nos encontramos para direcionar os requistos do Back End com o Front End.
+
+## Marcos do projeto
+- [x] inicio do projeto - Dia 18/01/22
+
+##  Acompanhamento do projeto
+- [ ] Desenvolvimento dos requisitos
+- [ ] Desenvolver a tela de login
+- [ ] Desenvolver a tela de escolha de Professores
+- [ ] Desenvolver a tela de Comunicação com o professor
 ## Front End
 - Davi Matias
 - Arthur Monici
+
 ## Back End
 - Alexandre Abreu
 - Luis Felipe
