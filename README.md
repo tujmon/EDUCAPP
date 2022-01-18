@@ -102,7 +102,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
       <br />
     </td>
     <td align="center">
-      <a href="https://github.com/luisfeliperc1">
+      <a href="https://github.com/Luis-Felipe-Rocha">
         <img src=https://avatars.githubusercontent.com/u/97915661?v=4" width="100px;" alt=""/>
         <br />
         <sub>
