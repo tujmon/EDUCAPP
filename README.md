@@ -103,7 +103,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     </td>
     <td align="center">
       <a href="https://github.com/luisfeliperc1">
-        <img src="https://avatars.githubusercontent.com/u/93354956?s=400&v=4" width="100px;" alt=""/>
+        <img src=https://avatars.githubusercontent.com/u/97915661?v=4" width="100px;" alt=""/>
         <br />
         <sub>
           <b>Luis Felipe</b>
@@ -112,8 +112,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
       <br />
     </td>
     <td align="center">
-      <a href="https://github.com/DaviMatiass">
-        <img src="https://avatars.githubusercontent.com/u/71733107?v=4?s=100" width="100px;" alt=""/>
+      <a href="https://github.com/davi-araujo">
+        <img src="https://avatars.githubusercontent.com/u/55163212?v=4?s=100" width="100px;" alt=""/>
         <br />
         <sub>
           <b>Davi Matias</b>
