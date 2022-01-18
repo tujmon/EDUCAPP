@@ -65,6 +65,16 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - 'Push' a sua branch
 - Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
 
+## Marcos do projeto
+##  Acompanhamento do projeto
+
+## Front End
+- Davi Matias
+- Arthur Monici
+## Back End
+- Alexandre Abreu
+- Luis Felipe
+
 ## Colaboradores
 
 <table>
@@ -112,15 +122,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   </tr>
 </table>
 
-## Marcos do projeto
-##  Acompanhamento do projeto
 
-## Front End
-- Davi Matias
-- Arthur Monici
-## Back End
-- Alexandre Abreu
-- Luis Felipe
 ## Licença 
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
