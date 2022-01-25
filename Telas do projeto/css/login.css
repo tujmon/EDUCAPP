@@ -1,0 +1,81 @@
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 250px;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.texto_principal {
+    color: var(--branco);
+    padding: 2rem;
+}
+
+.logo {
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+.logo strong {
+    color: var(--azul_principal)
+}
+
+.descricao {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.login {
+    color: var(--branco);
+    border: 2px var(--azul_principal) dashed;
+    border-radius: 5px;
+    padding: 2rem 3rem;
+}
+
+.login_titulo {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.input_login {
+    padding: .5rem;
+    display: block;
+    margin: .7rem 0;
+    width: 250px;
+    border-radius: 6px;
+}
+
+.botao {
+    background-color: var(--azul_principal);
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .8rem;
+    padding: .5rem;
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.sem_cadastro {
+    text-align: left;
+    font-size: .8rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+}
+
+.sem_cadastro a {
+    color: var(--azul_principal);
+    text-decoration: none;
+}
+
+.recuperar_senha {
+    font-size: .8rem;
+    color: var(--azul_principal);
+    text-decoration: none;
+    font-weight: bold;
+}

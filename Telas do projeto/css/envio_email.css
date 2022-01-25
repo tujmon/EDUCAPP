@@ -1,0 +1,45 @@
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 250px;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.recupera {
+    color: var(--branco);
+    border: 2px var(--azul_principal) dashed;
+    border-radius: 5px;
+    padding: 2rem 3rem;
+}
+
+.recupera_titulo {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.voltar_login {
+    text-align: left;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.voltar_login a {
+    color: var(--azul_principal);
+    text-decoration: none;
+}
+
+.sem_cadastro {
+    text-align: left;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.sem_cadastro a {
+    color: var(--azul_principal);
+    text-decoration: none;
+}

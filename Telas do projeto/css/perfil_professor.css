@@ -1,0 +1,114 @@
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--branco);
+}
+
+.logo strong {
+    color: var(--azul_principal)
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itens_menu {
+    margin-left: 3rem;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.selecionado {
+    color: var(--azul_principal);
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto 30px;
+    background-color: var(--cinza_escuro);
+
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+
+    border-radius: 30px;
+}
+
+.informacoes_pessoais {
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+.foto_perfil {
+    margin: 20px 10%;
+    width: 80%;
+    border-radius: 100%;
+}
+
+.informacoes_pessoais p {
+    color: var(--branco);
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    line-height: 2rem;
+}
+
+.informacoes_pessoais strong {
+    color: var(--azul_principal);
+    font-weight: bold;
+}
+
+.informacoes_profissionais {
+    width: 66%;
+    background-color: var(--cinza_claro);
+    border-radius: 30px;
+}
+
+.informacoes_profissionais h2 {
+    text-align: center;
+    color: var(--azul_principal);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.informacoes_profissionais section {
+    margin-bottom: 2rem;
+}
+
+.informacoes_profissionais h3 {
+    color: var(--azul_principal);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.informacoes_profissionais li {
+    color: var(--cinza_escuro);
+    font-size: 1.3rem;
+    padding: .5rem 2rem;
+    line-height: 1.5rem;
+}
+
+.espaco_botao {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.espaco_botao a {
+    text-align: center;
+    background-color: var(--azul_principal);
+    color: var(--branco);
+    width: 30%;
+    text-decoration: none;
+    padding: .8rem;
+    border-radius: 5px;
+}
