@@ -1,0 +1,2 @@
+preto - #000000
+azul_principal - #1B76E0
