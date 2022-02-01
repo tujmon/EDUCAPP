@@ -1,0 +1,108 @@
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--branco);
+}
+
+.logo strong {
+    color: var(--azul_principal)
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itens_menu {
+    margin-left: 3rem;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.selecionado {
+    color: var(--azul_principal);
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto 30px;
+    background-color: var(--cinza_escuro);
+
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+
+    border-radius: 30px;
+}
+
+.conversas {
+    width: 34%;
+    margin-bottom: 30px;
+}
+
+.campo_conversa, .conversa_chat {
+    display: flex;
+    align-items: center;
+    border-bottom: solid var(--cinza_claro) 2px;
+}
+
+.foto_perfil {
+    margin: 20px 5%;
+    width: 15%;
+    border-radius: 100%;
+}
+
+.conversas p, .chat p {
+    color: var(--branco);
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    line-height: 2rem;
+    display: inline;
+}
+
+.conversas strong {
+    color: var(--azul_principal);
+    font-weight: bold;
+}
+
+.chat {
+    width: 66%;
+    background-color: var(--cinza_claro);
+    border-radius: 30px;
+}
+
+.chat p {
+    color: var(--cinza_escuro);
+    font-size: 2rem;
+}
+
+.conversa_chat {
+    border-bottom: solid var(--cinza_escuro) 2px;
+}
+
+.enviar_mensagem {
+    display: flex;
+    align-items: center;
+}
+
+.enviar_mensagem textarea {
+    width: 85%;
+    height: 3rem;
+    color: var(--cinza_claro);
+    background-color: var(--azul_escuro);
+    border: none;
+}
+
+.botao_enviar_mensagem {
+    color: var(--azul_principal);
+    background-color: var(--azul_escuro);
+    width: 10%;
+    height: 3rem;
+    border: none;
+}
