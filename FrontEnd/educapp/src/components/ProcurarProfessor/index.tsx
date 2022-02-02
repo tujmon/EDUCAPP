@@ -1,35 +1,26 @@
-import { useForm } from '../hooks/form'
+import * as S from './styles'
+import { useForm, useFormFilter } from '../hooks/form'
 const ProcurarProfessor = () => {
   // header
   // search bar
   // list of professors
-  const initialState = {
-    filterMessage: ''
+  type Isearch = {
+    search: string
   }
-  const { onChange, onSubmit, values } = useForm(
+  const initialState: Isearch = {
+    search: ''
+  }
+  const { onChange, onSubmit, values } = useFormFilter(
     loginUserCallback,
     initialState
   )
 
   async function loginUserCallback() {
     console.log(values)
-    if (values.password !== values.passwordConfirmation) {
-      alert('Senhas não conferem')
-      return
-    }
-    // fazer chamadas diferentes para alunos e professores
-    if (values.perfil === 'aluno') {
-      // chamada para a api de professor
-      console.log('A')
-    }
-    if (values.perfil === 'professor') {
-      // chamada para a api de aluno
-      console.log('P')
-    }
   }
   return (
     <>
-      <div>
+      <S.Caixa>
         <h1>Procurar Professor</h1>
         <form onSubmit={onSubmit}>
           <input
@@ -40,15 +31,19 @@ const ProcurarProfessor = () => {
             onChange={onChange}
           />
         </form>
-      </div>
+      </S.Caixa>
       {/* pegar o json retornado e mapear aqui */}
-      <div>
-        <div>
+      <S.Espaco_professor>
+        <S.Perfil_professor>
           <h1>nome professor</h1>
           <a href=""> Acessar perfil</a>
-        </div>
-        <h1> Cálculo 3, React, Next</h1>
-      </div>
+        </S.Perfil_professor>
+        <h1>
+          Cálculo 3, React, Next tenho 20 anos e estudo ciencia da computação no
+          instituto federal de brasilia moro em taguatinga sou catolico,
+          catequista
+        </h1>
+      </S.Espaco_professor>
     </>
   )
 }

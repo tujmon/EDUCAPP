@@ -1,6 +1,7 @@
 import * as S from './styles'
 import Link from 'next/link'
 import { useForm } from '../hooks/form'
+import { api } from 'services/api'
 const Cadastro = () => {
   const initialState = {
     name: '',
@@ -16,6 +17,7 @@ const Cadastro = () => {
 
   async function loginUserCallback() {
     console.log(values)
+
     if (values.password !== values.passwordConfirmation) {
       alert('Senhas não conferem')
       return
@@ -28,6 +30,17 @@ const Cadastro = () => {
     if (values.perfil === 'professor') {
       // chamada para a api de aluno
       console.log('P')
+    }
+    try {
+      const response = await api.post('/users', {
+        name: values.name,
+        email: values.email,
+        password: values.password,
+        isInstructor: values.perfil === 'professor'
+      })
+      console.log(response.data)
+    } catch (err) {
+      console.log(err)
     }
   }
   return (

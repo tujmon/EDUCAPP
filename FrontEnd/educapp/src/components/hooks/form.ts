@@ -6,6 +6,9 @@ type Ivalues = {
   passwordConfirmation: string
   perfil: string
 }
+type Isearch = {
+  search: string
+}
 // useForm functional componen
 export const useForm = (callback: any, initialState: Ivalues) => {
   const [values, setValues] = useState<Ivalues>(initialState)
@@ -29,8 +32,8 @@ export const useForm = (callback: any, initialState: Ivalues) => {
   }
 }
 
-export const useFormFilter = (callback: any, initialState: Ivalues) => {
-  const [values, setValues] = useState<Ivalues>(initialState)
+export const useFormFilter = (callback: any, initialState: Isearch) => {
+  const [values, setValues] = useState<Isearch>(initialState)
 
   // onChange
   const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
