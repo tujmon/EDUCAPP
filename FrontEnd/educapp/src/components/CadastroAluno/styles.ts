@@ -1,16 +1,17 @@
 import styled from 'styled-components'
 
-export const caixa = styled.div`
+export const Caixa = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 50%;
   margin: 0 auto;
   margin-top: 250px;
+
   align-items: center;
   text-align: center;
 `
-export const Recupera = styled.div`
+export const Cadastro = styled.div`
   color: var(--branco);
   border: 2px var(--azul_principal) dashed;
   border-radius: 5px;
@@ -20,22 +21,14 @@ export const Recupera = styled.div`
     margin-bottom: 2rem;
     font-weight: 300;
   }
-  input {
+  textarea {
     padding: 0.5rem;
     display: block;
     margin: 0.7rem 0;
-    width: 100%;
+    width: 250px;
     border-radius: 6px;
+    height: 80px;
   }
-  p {
-    text-align: left;
-    font-size: 0.8rem;
-    font-weight: bold;
-  }
-`
-export const NavLink = styled.a`
-  color: var(--azul_principal);
-  text-decoration: none;
 `
 export const SubmitLink = styled.a`
   background-color: var(--azul_principal);

@@ -55,10 +55,11 @@ export const TextoPrincipal = styled.section`
     margin-bottom: 3rem;
   }
 `
-export const SubmitLink = styled.a`
+export const SubmitLink = styled.button`
   background-color: var(--azul_principal);
   color: var(--branco);
   text-decoration: none;
+  width: 100%;
   font-weight: bold;
   font-size: 0.8rem;
   padding: 0.5rem;

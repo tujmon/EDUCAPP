@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 export const Caixa = styled.div`
   display: flex;
   align-items: center;
@@ -27,7 +28,7 @@ export const TextoPrincipal = styled.section`
     margin-bottom: 3rem;
   }
 `
-export const Cadastro = styled.div`
+export const Cadastro = styled.form`
   color: var(--branco);
   border: 2px var(--azul_principal) dashed;
   border-radius: 5px;
@@ -76,9 +77,11 @@ export const NavLink = styled.a`
   text-decoration: none;
   cursor: pointer;
 `
-export const SubmitLink = styled.a`
+export const SubmitLink = styled.button`
   background-color: var(--azul_principal);
   color: var(--branco);
+  width: 100%;
+  border: 0;
   text-decoration: none;
   font-weight: bold;
   font-size: 0.8rem;
