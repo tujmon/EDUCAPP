@@ -12,6 +12,11 @@
     "test:ci": "jest --runInBand",
     "generate": "yarn plop --plopfile generators/plopfile.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*": [
       "yarn lint --fix",
@@ -19,6 +24,12 @@
     ]
   },
   "dependencies": {
+    "@fullcalendar/common": "^5.10.1",
+    "@fullcalendar/interaction": "^5.10.1",
+    "@fullcalendar/react": "^5.10.1",
+    "@fullcalendar/timegrid": "^5.10.1",
+    "axios": "^0.25.0",
+    "husky": "^7.0.4",
     "next": "12.0.8",
     "next-pwa": "^5.3.1",
     "react": "17.0.2",

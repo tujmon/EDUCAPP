@@ -20,6 +20,7 @@ export const Recupera = styled.div`
   h1 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    font-weight: 300;
   }
   input {
     padding: 0.5rem;
