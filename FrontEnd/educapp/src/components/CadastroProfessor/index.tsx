@@ -1,4 +1,5 @@
 import * as S from './styles'
+
 const CadastroProfessor = () => (
   <S.Caixa>
     <S.Cadastro>

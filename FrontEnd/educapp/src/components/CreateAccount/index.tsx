@@ -2,7 +2,7 @@ import * as S from './styles'
 import Link from 'next/link'
 import { useForm } from '../hooks/form'
 import { api } from 'services/api'
-const Cadastro = () => {
+const CreateAccount = () => {
   const initialState = {
     name: '',
     email: '',
@@ -120,4 +120,4 @@ const Cadastro = () => {
     </S.Caixa>
   )
 }
-export default Cadastro
+export default CreateAccount

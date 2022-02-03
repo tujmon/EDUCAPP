@@ -1,7 +1,8 @@
 import * as S from './styles'
 // import Link from 'next/link'
 import Image from 'next/image'
-import profilePic from '../../../public/img/arthur.jpg'
+import Professor from '../../../public/img/arthur.jpg'
+import Aluno from '../../../public/img/arthur.jpg'
 const PerfilAluno = () => (
   <>
     <S.Header>
@@ -27,7 +28,7 @@ const PerfilAluno = () => (
     </S.Header>
     <S.Container>
       <S.AcademicInformation>
-        <Image src={profilePic} alt="Foto Perfil" />
+        <Image src={} alt="Foto Perfil" />
         <p>Aluno</p>
         <p>
           Avaliação: <strong>4,83 ⭐</strong>

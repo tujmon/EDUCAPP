@@ -20,13 +20,7 @@ export const Cadastro = styled.form`
   h1 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
-  }
-  input {
-    padding: 0.5rem;
-    display: block;
-    margin: 0.7rem 0;
-    width: 100%;
-    border-radius: 6px;
+    font-weight: 300;
   }
   textarea {
     padding: 0.5rem;
@@ -36,9 +30,15 @@ export const Cadastro = styled.form`
     border-radius: 6px;
     height: 80px;
   }
+  input {
+    padding: 0.5rem;
+    display: block;
+    margin: 0.7rem 0;
+    width: 100%;
+    border-radius: 6px;
+  }
 `
-
-export const SubmitLink = styled.a`
+export const SubmitLink = styled.button`
   background-color: var(--azul_principal);
   color: var(--branco);
   text-decoration: none;

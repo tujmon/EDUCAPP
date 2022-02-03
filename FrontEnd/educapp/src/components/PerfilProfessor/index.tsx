@@ -1,7 +1,7 @@
 import * as S from './styles'
-// import Link from 'next/link'
 import Image from 'next/image'
 import profilePic from '../../../public/img/davisao_apenas.jpeg'
+import Link from 'next/link'
 const PerfilProfessor = () => (
   <>
     <S.Header>
@@ -11,16 +11,22 @@ const PerfilProfessor = () => (
       <S.Menu>
         <ul>
           <S.MenuItem active={false}>
-            <a href="">Dashboard</a>
+            <Link href="/dashboard" passHref>
+              <a href="">Dashboard</a>
+            </Link>
           </S.MenuItem>
           <S.MenuItem active={true}>
             <a href="">Perfil</a>
           </S.MenuItem>
           <S.MenuItem active={false}>
-            <a href="">Chat</a>
+            <Link href="/informacoes_contato" passHref>
+              <a href="">Chat</a>
+            </Link>
           </S.MenuItem>
           <S.MenuItem active={false}>
-            <a href="">Procurar Professores</a>
+            <Link href="/procurar_professor" passHref>
+              <a href="">Procurar Professores</a>
+            </Link>
           </S.MenuItem>
         </ul>
       </S.Menu>
