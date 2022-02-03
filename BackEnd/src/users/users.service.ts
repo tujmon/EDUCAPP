@@ -26,7 +26,7 @@ export class UsersService {
   }
 
   findOneTeacherByCourse(course: string) {
-    return this.userModel.find({ aulas: { $regex: course } });
+    return this.userModel.find({ 'report.aulas': { $regex: course } });
   }
 
   findOneOrFail(email: string) {
