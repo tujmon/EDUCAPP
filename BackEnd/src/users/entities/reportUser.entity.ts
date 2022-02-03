@@ -6,13 +6,10 @@ export type ReportUserDocument = ReportUser & Document;
 @Schema()
 export class ReportUser {
   @Prop()
-  cursos: string;
+  aulas: string;
 
   @Prop()
   idade: number;
-
-  @Prop()
-  avaliacao: number;
 
   @Prop()
   residencia: string;
@@ -21,16 +18,19 @@ export class ReportUser {
   descricao: string;
 
   @Prop()
-  formacoes: [string];
+  avaliacao: number;
 
   @Prop()
-  descricaoAulas: [string];
+  formacoes: string;
 
   @Prop()
-  horarios: [string];
+  descricaoAulas: string;
 
   @Prop()
-  interesses: [string];
+  horarios: string;
+
+  @Prop()
+  interesses: string;
 
   @Prop()
   historico: [string];
