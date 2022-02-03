@@ -9,6 +9,7 @@ import {
   HttpCode,
   HttpStatus,
   UseGuards,
+  Query,
 } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 import { CreateUserDto } from './dto/create-user.dto';
@@ -27,6 +28,11 @@ export class UsersController {
   @Get()
   findAll() {
     return this.usersService.findAll();
+  }
+
+  @Get('courses')
+  findOneTeacherByCourse(@Query('course') course) {
+    return this.usersService.findOneTeacherByCourse(course);
   }
 
   @UseGuards(AuthGuard('jwt'))
